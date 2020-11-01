@@ -1,0 +1,40 @@
+.gallery{
+   width: 100%;
+   margin: 12vh 50%;
+   transform: translateX(-50%);
+   display: grid;
+    grid-template-columns: repeat(3, 400px);
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-content: center;
+}
+
+.gallery div{
+    position: relative;
+}
+
+img{
+    margin-left: 5px;
+    height: 500px;
+    width: 300px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+
+#aStyle{
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    text-decoration: underline;
+    color:white;
+}
+
+#aStyle:hover{
+    color: #009688;
+    
+}
+
